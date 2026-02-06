@@ -35,31 +35,52 @@
                 <button id="feedback-btn" class="feedback-btn">Submit</button>
             </div>
 
-            <div id="comments-list" class="comments-list">
-                <div class="comment">
-                    <div class="comment-header">
-                        <span class="comment-author">Sarah M.</span>
-                        <span class="comment-time">2 hours ago</span>
+            <div class="sort-container">
+                <label>Sort by:</label>
+                <div class="sort-wrapper">
+                    <button id="sort-btn" class="sort-btn">
+                        <span id="sort-label">Newest</span>
+                        <svg class="sort-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div id="sort-dropdown" class="sort-dropdown">
+                        <div class="sort-option selected" data-value="newest">Newest</div>
+                        <div class="sort-option" data-value="oldest">Oldest</div>
+                        <div class="sort-option" data-value="most-liked">Most Liked</div>
+                        <div class="sort-option" data-value="most-disliked">Most Disliked</div>
+                        <div class="sort-option" data-value="most-replies">Most Replies</div>
                     </div>
-                    <p class="comment-text">Would love to see more Wisconsin districts added!</p>
                 </div>
-                <div class="comment">
-                    <div class="comment-header">
-                        <span class="comment-author">Mike T.</span>
-                        <span class="comment-time">1 day ago</span>
-                    </div>
-                    <p class="comment-text">This is super helpful for comparing salaries. Thanks for building this!</p>
-                </div>
-                <div class="comment">
-                    <div class="comment-header">
-                        <span class="comment-author">Jennifer K.</span>
-                        <span class="comment-time">3 days ago</span>
-                    </div>
-                    <p class="comment-text">Could you add a feature to compare two districts side by side?</p>
-                </div>
+            </div>
+
+            <div id="comments-list" class="comments-list"></div>
+
+            <div id="pagination" class="pagination">
+                <button id="prev-page" class="page-btn" disabled>&larr; Prev</button>
+                <span id="page-info" class="page-info">Page 1 of 1</span>
+                <button id="next-page" class="page-btn" disabled>Next &rarr;</button>
             </div>
         </div>
     </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+
+    <!-- Firebase Config -->
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyAGrBlxEbMXuhEMKJMTJGmMsw4fI6TDdiI",
+            authDomain: "k12-salary-schedule.firebaseapp.com",
+            projectId: "k12-salary-schedule",
+            storageBucket: "k12-salary-schedule.firebasestorage.app",
+            messagingSenderId: "74466211653",
+            appId: "1:74466211653:web:a52a2040a61a99a65b302c"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+    </script>
 
     <script src="script.js"></script>
 </body>

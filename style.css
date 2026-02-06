@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
+    padding-bottom: 200px;
 }
 
 h1 {
@@ -143,7 +144,8 @@ h1 {
 
 .feedback-section {
     margin-top: 50px;
-    width: 320px;
+    width: 600px;
+    max-width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -255,5 +257,526 @@ h1 {
     font-size: 14px;
     color: #444;
     line-height: 1.4;
+}
+
+.comment-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.like-btn,
+.dislike-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    background: white;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.like-btn:hover {
+    border-color: #9e32e6;
+    background: #f3e8ff;
+}
+
+.dislike-btn:hover {
+    border-color: #e09090;
+    background: #fff0f0;
+}
+
+.like-btn.active {
+    border-color: #9e32e6;
+    background: #f3e8ff;
+    color: #7b1fa2;
+}
+
+.dislike-btn.active {
+    border-color: #e09090;
+    background: #fff0f0;
+    color: #c27070;
+}
+
+.like-count,
+.dislike-count {
+    font-weight: 600;
+}
+
+.thumb-icon {
+    width: 16px;
+    height: 16px;
+    stroke: #606060;
+    transition: stroke 0.2s ease;
+}
+
+.like-btn:hover .thumb-icon,
+.like-btn.active .thumb-icon {
+    stroke: #7b1fa2;
+}
+
+.dislike-btn:hover .thumb-icon,
+.dislike-btn.active .thumb-icon {
+    stroke: #c27070;
+}
+
+.like-btn.active .thumb-icon,
+.dislike-btn.active .thumb-icon {
+    fill: currentColor;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.page-btn {
+    padding: 8px 16px;
+    background-color: #9e32e6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+
+.page-btn:hover:not(:disabled) {
+    background-color: #510f7d;
+}
+
+.page-btn:disabled {
+    background-color: #d8c6ff;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.page-info {
+    font-size: 14px;
+    color: #555;
+}
+
+.sort-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.sort-container label {
+    font-size: 14px;
+    color: #555;
+}
+
+.sort-wrapper {
+    position: relative;
+}
+
+.sort-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 2px solid #d8c6ff;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    color: #333;
+    white-space: nowrap;
+}
+
+.sort-btn:hover {
+    border-color: #9e32e6;
+}
+
+.sort-btn:focus {
+    outline: none;
+    border-color: #510f7d;
+    box-shadow: 0 0 4px rgba(122, 91, 255, 0.35);
+}
+
+.sort-arrow {
+    width: 12px;
+    height: 12px;
+    stroke: #9e32e6;
+    transition: transform 0.2s ease;
+}
+
+.sort-btn.open .sort-arrow {
+    transform: rotate(180deg);
+}
+
+.sort-dropdown {
+    display: none;
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    min-width: 100%;
+    background: white;
+    border: 2px solid #d8c6ff;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 20;
+    overflow: hidden;
+}
+
+.sort-dropdown.open {
+    display: block;
+}
+
+.sort-option {
+    padding: 10px 14px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.15s ease;
+    white-space: nowrap;
+    border-bottom: 1px solid #e8e0f0;
+}
+
+.sort-option:last-child {
+    border-bottom: none;
+}
+
+.sort-option:hover {
+    background: #f3e8ff;
+}
+
+.sort-option.selected {
+    background: #f3e8ff;
+    color: #7b1fa2;
+    font-weight: 600;
+}
+
+/* Reply button */
+.reply-btn {
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    background: white;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #606060;
+}
+
+.reply-btn:hover {
+    border-color: #9e32e6;
+    background: #f3e8ff;
+    color: #7b1fa2;
+}
+
+/* Reply input area */
+.reply-input-area {
+    margin-top: 12px;
+    padding: 12px;
+    background: #f5f3f7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.reply-name-input,
+.reply-text-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border: 1px solid #d8c6ff;
+    border-radius: 6px;
+    font-size: 13px;
+    font-family: inherit;
+    transition: border-color 0.2s ease;
+}
+
+.reply-name-input:focus,
+.reply-text-input:focus {
+    outline: none;
+    border-color: #510f7d;
+}
+
+.reply-text-input {
+    resize: vertical;
+}
+
+.reply-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.reply-cancel-btn,
+.reply-submit-btn {
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.reply-cancel-btn {
+    background: white;
+    border: 1px solid #d8c6ff;
+    color: #666;
+}
+
+.reply-cancel-btn:hover {
+    background: #f3e8ff;
+    border-color: #9e32e6;
+    color: #7b1fa2;
+}
+
+.reply-submit-btn {
+    background: #9e32e6;
+    border: none;
+    color: white;
+}
+
+.reply-submit-btn:hover {
+    background: #510f7d;
+}
+
+/* Toggle replies button */
+.toggle-replies-btn {
+    margin-top: 10px;
+    padding: 6px 0;
+    background: none;
+    border: none;
+    color: #7b1fa2;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.toggle-replies-btn:hover {
+    color: #510f7d;
+}
+
+/* Replies list */
+.replies {
+    margin-top: 12px;
+    margin-left: 12px;
+    padding-left: 10px;
+    border-left: 2px solid #e8e0f0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reply {
+    background: #f0edf4;
+    border-radius: 6px;
+    padding: 10px 12px;
+}
+
+.reply-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.reply-author {
+    font-weight: 600;
+    font-size: 12px;
+    color: #444;
+}
+
+.reply-time {
+    font-size: 11px;
+    color: #888;
+}
+
+.reply-text {
+    margin: 0;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.4;
+}
+
+.reply-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.reply-like-btn,
+.reply-dislike-btn {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 3px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background: white;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.reply-like-btn .thumb-icon,
+.reply-dislike-btn .thumb-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.reply-like-btn:hover {
+    border-color: #9e32e6;
+    background: #f3e8ff;
+}
+
+.reply-dislike-btn:hover {
+    border-color: #e09090;
+    background: #fff0f0;
+}
+
+.reply-like-btn.active {
+    border-color: #9e32e6;
+    background: #f3e8ff;
+    color: #7b1fa2;
+}
+
+.reply-dislike-btn.active {
+    border-color: #e09090;
+    background: #fff0f0;
+    color: #c27070;
+}
+
+.reply-like-btn:hover .thumb-icon,
+.reply-like-btn.active .thumb-icon {
+    stroke: #7b1fa2;
+}
+
+.reply-dislike-btn:hover .thumb-icon,
+.reply-dislike-btn.active .thumb-icon {
+    stroke: #c27070;
+}
+
+.reply-like-btn.active .thumb-icon,
+.reply-dislike-btn.active .thumb-icon {
+    fill: currentColor;
+}
+
+/* Reply to reply button */
+.reply-to-reply-btn {
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background: white;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #606060;
+}
+
+.reply-to-reply-btn:hover {
+    border-color: #9e32e6;
+    background: #f3e8ff;
+    color: #7b1fa2;
+}
+
+/* Admin delete buttons */
+.admin-delete-btn,
+.admin-delete-comment-btn {
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid #ff4444;
+    background: white;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #ff4444;
+    margin-left: 8px;
+}
+
+.admin-delete-btn:hover,
+.admin-delete-comment-btn:hover {
+    background: #ff4444;
+    color: white;
+}
+
+/* Nested replies - depth 1-5 indent right, depth 6+ has no border (shares parent line) */
+
+/* Depth 6+: no border-left, just continues from parent */
+.replies[data-depth="6"],
+.replies[data-depth="7"],
+.replies[data-depth="8"],
+.replies[data-depth="9"],
+.replies[data-depth="10"] {
+    border-left: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* Nested reply toggle button */
+.toggle-nested-replies-btn {
+    margin-top: 8px;
+    padding: 4px 0;
+    background: none;
+    border: none;
+    color: #7b1fa2;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.toggle-nested-replies-btn:hover {
+    color: #510f7d;
+}
+
+/* Nested reply input area */
+.nested-reply-input {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f5f3f7;
+    border-radius: 6px;
+}
+
+/* Nested reply cancel and submit buttons */
+.nested-reply-cancel-btn,
+.nested-reply-submit-btn {
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.nested-reply-cancel-btn {
+    background: white;
+    border: 1px solid #d8c6ff;
+    color: #666;
+}
+
+.nested-reply-cancel-btn:hover {
+    background: #f3e8ff;
+    border-color: #9e32e6;
+    color: #7b1fa2;
+}
+
+.nested-reply-submit-btn {
+    background: #9e32e6;
+    border: none;
+    color: white;
+}
+
+.nested-reply-submit-btn:hover {
+    background: #510f7d;
 }
 

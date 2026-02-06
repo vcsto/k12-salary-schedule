@@ -1,0 +1,60 @@
+================================================================================
+ADMIN INSTRUCTIONS - Comment Management for k12salaryschedule.com
+================================================================================
+
+HOW TO DELETE COMMENTS
+----------------------
+
+1. Go to your website with the admin key in the URL:
+
+   https://www.k12salaryschedule.com/?admin=victor2026
+
+2. You will see red "Delete" buttons next to every comment and reply.
+
+3. Click "Delete" on any comment or reply you want to remove.
+
+4. A confirmation popup will ask "Are you sure you want to delete this comment?"
+   - Click OK to delete
+   - Click Cancel to keep it
+
+5. The comment/reply will be permanently removed from Firebase.
+
+
+IMPORTANT NOTES
+---------------
+
+- The admin key is: victor2026
+- Keep this key secret - anyone with it can delete comments
+- Regular visitors (without ?admin=victor2026) cannot see delete buttons
+- Deleting a comment also deletes all its replies
+- Deletions are permanent and cannot be undone
+
+
+TO CHANGE THE ADMIN KEY
+-----------------------
+
+If you want to change the secret key:
+
+1. Open Website/script.js
+2. Find this line (around line 313):
+
+   const ADMIN_KEY = "victor2026";
+
+3. Change "victor2026" to your new secret key
+4. Save and redeploy your website
+
+
+FIREBASE CONSOLE (BACKUP METHOD)
+--------------------------------
+
+You can also delete comments directly in Firebase:
+
+1. Go to: https://console.firebase.google.com/
+2. Select project: k12-salary-schedule
+3. Click "Firestore Database" in the left sidebar
+4. Click on "comments" collection
+5. Click on any document to view it
+6. Click the 3 dots menu > "Delete document"
+
+
+================================================================================
