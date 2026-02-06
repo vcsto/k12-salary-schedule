@@ -175,7 +175,7 @@ h1 {
 }
 
 .feedback-btn {
-    margin-top: 12px;
+    margin-top: 2px;
     padding: 10px 24px;
     background-color: #9e32e6;
     color: white;
@@ -196,6 +196,24 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+}
+
+#name-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 14px;
+    border: 2px solid #d8c6ff;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#name-input:focus {
+    outline: none;
+    border-color: #510f7d;
+    box-shadow: 0 0 4px rgba(122, 91, 255, 0.35);
 }
 
 .comments-list {

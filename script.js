@@ -298,6 +298,7 @@ goButton.addEventListener("click", () => {
 // ------------------------------
 // FEEDBACK / COMMENTS
 // ------------------------------
+const nameInput = document.getElementById("name-input");
 const feedbackInput = document.getElementById("feedback-input");
 const feedbackBtn = document.getElementById("feedback-btn");
 const commentsList = document.getElementById("comments-list");
@@ -307,12 +308,15 @@ if (feedbackBtn && feedbackInput && commentsList) {
     const text = feedbackInput.value.trim();
     if (!text) return;
 
+    const name = nameInput ? nameInput.value.trim() : "";
+    const displayName = name || "Anonymous";
+
     // Create new comment element
     const comment = document.createElement("div");
     comment.className = "comment";
     comment.innerHTML = `
       <div class="comment-header">
-        <span class="comment-author">You</span>
+        <span class="comment-author">${escapeHtml(displayName)}</span>
         <span class="comment-time">Just now</span>
       </div>
       <p class="comment-text">${escapeHtml(text)}</p>
@@ -321,8 +325,9 @@ if (feedbackBtn && feedbackInput && commentsList) {
     // Add to top of list
     commentsList.insertBefore(comment, commentsList.firstChild);
 
-    // Clear input
+    // Clear inputs
     feedbackInput.value = "";
+    if (nameInput) nameInput.value = "";
   });
 }
 
