@@ -465,6 +465,7 @@ toggleB.addEventListener("change", updateScheduleInfo);
       districtId === "mn_hastings_200" || 
       districtId === "mn_hawley_150" || 
       districtId === "mn_hopkins_270" ||
+      districtId === "mn_rockridge_2909" ||
       districtId === "mn_chisago_2144";
 
     

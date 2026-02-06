@@ -320,6 +320,55 @@ let activeReplyId = null; // Track which comment has reply box open
 let activeReplyToReplyId = null; // Track which reply is being replied to (format: "commentId-replyId-replyId...")
 let expandedReplies = new Set(); // Track which comments have replies expanded
 
+// localStorage key for storing user votes
+const VOTES_STORAGE_KEY = "k12_user_votes";
+
+// Get all stored votes from localStorage
+function getStoredVotes() {
+  try {
+    const stored = localStorage.getItem(VOTES_STORAGE_KEY);
+    return stored ? JSON.parse(stored) : {};
+  } catch (e) {
+    return {};
+  }
+}
+
+// Save a vote to localStorage
+function saveVoteToStorage(id, voteType) {
+  const votes = getStoredVotes();
+  if (voteType === null) {
+    delete votes[id];
+  } else {
+    votes[id] = voteType;
+  }
+  localStorage.setItem(VOTES_STORAGE_KEY, JSON.stringify(votes));
+}
+
+// Get a specific vote from localStorage
+function getStoredVote(id) {
+  const votes = getStoredVotes();
+  return votes[id] || null;
+}
+
+// Restore userVote for a comment/reply from localStorage
+function restoreUserVotes(comment) {
+  comment.userVote = getStoredVote(comment.id);
+  if (comment.replies) {
+    restoreRepliesVotes(comment.replies, comment.id);
+  }
+}
+
+// Recursively restore votes for replies
+function restoreRepliesVotes(replies, parentPath) {
+  replies.forEach(reply => {
+    const replyPath = `${parentPath}-${reply.id}`;
+    reply.userVote = getStoredVote(replyPath);
+    if (reply.replies) {
+      restoreRepliesVotes(reply.replies, replyPath);
+    }
+  });
+}
+
 // Format timestamp for display
 function formatTimeAgo(timestamp) {
   if (!timestamp) return "Just now";
@@ -344,17 +393,20 @@ async function loadComments() {
     const snapshot = await db.collection("comments").orderBy("createdAt", "desc").get();
     allComments = snapshot.docs.map(doc => {
       const data = doc.data();
-      return {
+      const comment = {
         id: doc.id,
         author: data.author,
         text: data.text,
         likes: data.likes || 0,
         dislikes: data.dislikes || 0,
-        userVote: null, // User votes are local (per session)
+        userVote: null,
         replies: data.replies || [],
         createdAt: data.createdAt,
         time: formatTimeAgo(data.createdAt)
       };
+      // Restore user's votes from localStorage
+      restoreUserVotes(comment);
+      return comment;
     });
     renderComments();
   } catch (error) {
@@ -490,6 +542,9 @@ function handleVote(commentId, voteType) {
     comment.userVote = voteType;
   }
 
+  // Save vote to localStorage so it persists
+  saveVoteToStorage(commentId, comment.userVote);
+
   // Save to Firestore
   updateComment(commentId, { likes: comment.likes, dislikes: comment.dislikes });
 
@@ -519,6 +574,9 @@ function handleReplyVote(replyPath, voteType) {
     else reply.dislikes++;
     reply.userVote = voteType;
   }
+
+  // Save vote to localStorage so it persists
+  saveVoteToStorage(replyPath, reply.userVote);
 
   // Save to Firestore - update the entire comment's replies array
   const commentId = replyPath.split("-")[0];
