@@ -1,0 +1,64 @@
+{
+  "districtId": "mn_farmington_192",
+  "schedules": {
+    "2023-2024": {
+      "title": "2023-2024 Salary Schedule A",
+      "buttonText": "2023-2024",
+      "lanes": [
+        { "key": "BA/BS", "label": "BA/BS" },
+        { "key": "BA/BS+20", "label": "BA/BS+20", "headerLines": ["BA/BS+20", "BA/BS+13.3"] },
+        { "key": "BA/BS+40", "label": "BA/BS+40", "headerLines": ["BA/BS+40", "BA/BS+26.6"] },
+        { "key": "BA/BS+60_MA/MS", "label": "BA/BS+60 MA/MS", "headerLines": ["BA/BS+60", "MA/MS"] },
+        { "key": "MA/MS+20", "label": "MA/MS+20", "headerLines": ["MA/MS+20", "MA/MS+13.3"] },
+        { "key": "MA/MS+40", "label": "MA/MS+40", "headerLines": ["MA/MS+40", "MA/MS+26.6"] },
+        { "key": "MA/MS+60", "label": "MA/MS+60", "headerLines": ["MA/MS+60", "MA/MS+40"] }
+      ],
+      "yearRanges": ["1","2","3","4","5","6","7","8","9","10","11","12","13"],
+      "rows": [
+        { "step": "1", "years": "1", "BA/BS": 47214, "BA/BS+20": 48242, "BA/BS+40": 49417, "BA/BS+60_MA/MS": 50595, "MA/MS+20": 51913, "MA/MS+40": 53231, "MA/MS+60": 55231 },
+        { "step": "2", "years": "2", "BA/BS": 48242, "BA/BS+20": 49417, "BA/BS+40": 50595, "BA/BS+60_MA/MS": 51913, "MA/MS+20": 53231, "MA/MS+40": 55231, "MA/MS+60": 56550 },
+        { "step": "3", "years": "3", "BA/BS": 49417, "BA/BS+20": 50595, "BA/BS+40": 51913, "BA/BS+60_MA/MS": 53231, "MA/MS+20": 55231, "MA/MS+40": 56550, "MA/MS+60": 58570 },
+        { "step": "4", "years": "4", "BA/BS": 50595, "BA/BS+20": 51913, "BA/BS+40": 53231, "BA/BS+60_MA/MS": 55231, "MA/MS+20": 56550, "MA/MS+40": 58570, "MA/MS+60": 61319 },
+        { "step": "5", "years": "5", "BA/BS": 51913, "BA/BS+20": 53231, "BA/BS+40": 55231, "BA/BS+60_MA/MS": 56550, "MA/MS+20": 58570, "MA/MS+40": 61319, "MA/MS+60": 63464 },
+        { "step": "6", "years": "6", "BA/BS": 53231, "BA/BS+20": 55231, "BA/BS+40": 56550, "BA/BS+60_MA/MS": 58570, "MA/MS+20": 61319, "MA/MS+40": 63464, "MA/MS+60": 66293 },
+        { "step": "7", "years": "7", "BA/BS": 55231, "BA/BS+20": 56550, "BA/BS+40": 58017, "BA/BS+60_MA/MS": 61319, "MA/MS+20": 63464, "MA/MS+40": 66293, "MA/MS+60": 69640 },
+        { "step": "8", "years": "8", "BA/BS": 56550, "BA/BS+20": 57342, "BA/BS+40": 59486, "BA/BS+60_MA/MS": 63464, "MA/MS+20": 66293, "MA/MS+40": 69640, "MA/MS+60": 72235 },
+        { "step": "9", "years": "9", "BA/BS": 57342, "BA/BS+20": 58812, "BA/BS+40": 60955, "BA/BS+60_MA/MS": 66293, "MA/MS+20": 69640, "MA/MS+40": 72235, "MA/MS+60": 75784 },
+        { "step": "10", "years": "10", "BA/BS": 58812, "BA/BS+20": 60279, "BA/BS+40": 62424, "BA/BS+60_MA/MS": 69640, "MA/MS+20": 72235, "MA/MS+40": 75784, "MA/MS+60": 78942 },
+        { "step": "11", "years": "11", "BA/BS": 60279, "BA/BS+20": 61748, "BA/BS+40": 64478, "BA/BS+60_MA/MS": 72235, "MA/MS+20": 75784, "MA/MS+40": 78942, "MA/MS+60": 83384 },
+        { "step": "12", "years": "12", "BA/BS": 61748, "BA/BS+20": 63803, "BA/BS+40": 67138, "BA/BS+60_MA/MS": 75784, "MA/MS+20": 78942, "MA/MS+40": 83384, "MA/MS+60": 87610 },
+        { "step": "13", "years": "13", "BA/BS": 63803, "BA/BS+20": 66464, "BA/BS+40": 71322, "BA/BS+60_MA/MS": 78941, "MA/MS+20": 83384, "MA/MS+40": 87610, "MA/MS+60": 91473 }
+      ]
+    },
+
+    "2024-2025": {
+      "title": "2024-2025 Salary Schedule B",
+      "buttonText": "2024-2025",
+      "lanes": [
+        { "key": "BA/BS", "label": "BA/BS" },
+        { "key": "BA/BS+20", "label": "BA/BS+20", "headerLines": ["BA/BS+20", "BA/BS+13.3"] },
+        { "key": "BA/BS+40", "label": "BA/BS+40", "headerLines": ["BA/BS+40", "BA/BS+26.6"] },
+        { "key": "BA/BS+60_MA/MS", "label": "BA/BS+60 MA/MS", "headerLines": ["BA/BS+60", "MA/MS"] },
+        { "key": "MA/MS+20", "label": "MA/MS+20", "headerLines": ["MA/MS+20", "MA/MS+13.3"] },
+        { "key": "MA/MS+40", "label": "MA/MS+40", "headerLines": ["MA/MS+40", "MA/MS+26.6"] },
+        { "key": "MA/MS+60", "label": "MA/MS+60", "headerLines": ["MA/MS+60", "MA/MS+40"] }
+      ],
+      "yearRanges": ["1","2","3","4","5","6","7","8","9","10","11","12","13"],
+      "rows": [
+        { "step": "1", "years": "1", "BA/BS": 50000, "BA/BS+20": 50655, "BA/BS+40": 51887, "BA/BS+60_MA/MS": 53125, "MA/MS+20": 54508, "MA/MS+40": 55893, "MA/MS+60": 57993 },
+        { "step": "2", "years": "2", "BA/BS": 50655, "BA/BS+20": 51887, "BA/BS+40": 53125, "BA/BS+60_MA/MS": 54508, "MA/MS+20": 55893, "MA/MS+40": 57993, "MA/MS+60": 59378 },
+        { "step": "3", "years": "3", "BA/BS": 51887, "BA/BS+20": 53125, "BA/BS+40": 54508, "BA/BS+60_MA/MS": 55893, "MA/MS+20": 57993, "MA/MS+40": 59378, "MA/MS+60": 61498 },
+        { "step": "4", "years": "4", "BA/BS": 53125, "BA/BS+20": 54508, "BA/BS+40": 55893, "BA/BS+60_MA/MS": 57993, "MA/MS+20": 59378, "MA/MS+40": 61498, "MA/MS+60": 64385 },
+        { "step": "5", "years": "5", "BA/BS": 54508, "BA/BS+20": 55893, "BA/BS+40": 57993, "BA/BS+60_MA/MS": 59378, "MA/MS+20": 61498, "MA/MS+40": 64385, "MA/MS+60": 66637 },
+        { "step": "6", "years": "6", "BA/BS": 55893, "BA/BS+20": 57993, "BA/BS+40": 59378, "BA/BS+60_MA/MS": 61498, "MA/MS+20": 64385, "MA/MS+40": 66637, "MA/MS+60": 69607 },
+        { "step": "7", "years": "7", "BA/BS": 57993, "BA/BS+20": 59378, "BA/BS+40": 60918, "BA/BS+60_MA/MS": 64385, "MA/MS+20": 66637, "MA/MS+40": 69607, "MA/MS+60": 73123 },
+        { "step": "8", "years": "8", "BA/BS": 59378, "BA/BS+20": 60210, "BA/BS+40": 62460, "BA/BS+60_MA/MS": 66637, "MA/MS+20": 69607, "MA/MS+40": 73123, "MA/MS+60": 75847 },
+        { "step": "9", "years": "9", "BA/BS": 60210, "BA/BS+20": 61753, "BA/BS+40": 64003, "BA/BS+60_MA/MS": 69607, "MA/MS+20": 73123, "MA/MS+40": 75847, "MA/MS+60": 79573 },
+        { "step": "10", "years": "10", "BA/BS": 61753, "BA/BS+20": 63293, "BA/BS+40": 65545, "BA/BS+60_MA/MS": 73123, "MA/MS+20": 75847, "MA/MS+40": 79573, "MA/MS+60": 82889 },
+        { "step": "11", "years": "11", "BA/BS": 63293, "BA/BS+20": 64835, "BA/BS+40": 67702, "BA/BS+60_MA/MS": 75847, "MA/MS+20": 79573, "MA/MS+40": 82889, "MA/MS+60": 87553 },
+        { "step": "12", "years": "12", "BA/BS": 64835, "BA/BS+20": 66993, "BA/BS+40": 70495, "BA/BS+60_MA/MS": 79573, "MA/MS+20": 82889, "MA/MS+40": 87553, "MA/MS+60": 91990 },
+        { "step": "13", "years": "13", "BA/BS": 66993, "BA/BS+20": 69788, "BA/BS+40": 74888, "BA/BS+60_MA/MS": 82888, "MA/MS+20": 87553, "MA/MS+40": 91990, "MA/MS+60": 96047 }
+      ]
+    }
+  }
+}

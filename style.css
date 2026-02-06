@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+h1 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    margin: 0 0 24px 0;
+}
+
+.search-wrapper {
+    position: relative;
+    margin-top: 20px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#state-input,
+#district-input {
+    padding: 10px 14px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#state-input:focus,
+#district-input:focus {
+    outline: none;
+    border-color: #2f3b8f;
+    box-shadow: 0 0 0 2px rgba(47, 59, 143, 0.2);
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 10;
+    max-height: 220px;
+    overflow-y: auto;
+}
+
+.dropdown-item {
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.dropdown-item:hover {
+    background: #f0f0f0;
+}
+
+#state-input.input-selected,
+#district-input.input-selected {
+    border-color: #510f7d;
+}
+
+#state-input:focus,
+#district-input:focus,
+#state-input.selected-input,
+#district-input.selected-input {
+    outline: none;
+    border-color: #510f7d;
+}
+
+.go-btn {
+    margin-top: 16px;
+    padding: 11px 20px;
+    background-color: #e6d6ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: not-allowed;
+    opacity: 0.7;
+    transition: background-color 0.2s ease, opacity 0.2s ease, transform 0.1s ease;
+}
+
+.go-btn.enabled {
+    background-color: #0c0032;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.go-btn.enabled {
+    background-color: #9e32e6; 
+    cursor: pointer;
+    opacity: 1;
+}
+
+.go-btn.enabled:hover {
+    background-color: #510f7d; 
+    transform: scale(1.03);
+}
+
+.result {
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+.district-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#state-input,
+#district-input {
+    padding: 10px 14px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 2px solid #d8c6ff;
+    font-size: 16px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#state-input:focus,
+#district-input:focus {
+    outline: none;
+    border-color: #510f7d;
+    box-shadow: 0 0 4px rgba(122, 91, 255, 0.35);
+}
+
+.feedback-section {
+    margin-top: 50px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-label {
+    font-size: 14px;
+    color: #555;
+    margin: 0 0 12px 0;
+    text-align: center;
+}
+
+#feedback-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 14px;
+    border: 2px solid #d8c6ff;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#feedback-input:focus {
+    outline: none;
+    border-color: #510f7d;
+    box-shadow: 0 0 4px rgba(122, 91, 255, 0.35);
+}
+
+.feedback-btn {
+    margin-top: 12px;
+    padding: 10px 24px;
+    background-color: #9e32e6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.feedback-btn:hover {
+    background-color: #510f7d;
+    transform: scale(1.03);
+}
+
+.comment-input-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comments-list {
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.comment {
+    background: #f9f7fc;
+    border: 1px solid #e8e0f0;
+    border-radius: 8px;
+    padding: 12px 14px;
+    text-align: left;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.comment-author {
+    font-weight: 600;
+    font-size: 13px;
+    color: #333;
+}
+
+.comment-time {
+    font-size: 12px;
+    color: #888;
+}
+
+.comment-text {
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+    line-height: 1.4;
+}
+

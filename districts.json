@@ -1,0 +1,207 @@
+[
+  {
+    "id": "pa_south_western",
+    "state": "Pennsylvania",
+    "name": "SOUTH WESTERN SCHOOL DISTRICT YORK COUNTY"
+  },
+  {
+    "id": "mi_walled_lake",
+    "state": "Michigan",
+    "name": "WALLED LAKE BOARD OF EDUCATION"
+  },
+  {
+    "id": "ne_norfolk_590002",
+    "state": "Nebraska",
+    "name": "NORFOLK PUBLIC SCHOOL DISTRICT 59-0002"
+  },
+  {
+    "id": "mn_roseville_623",
+    "state": "Minnesota",
+    "name": "ROSEVILLE AREA SCH DIST 623"
+  },
+  {
+    "id": "mn_adaborup_2910",
+    "state": "Minnesota",
+    "name": "ADA BORUP WEST INDEPENDENT SCHOOL DISTRICT 2910"
+  },
+  {
+    "id": "mn_osseo_279",
+    "state": "Minnesota",
+    "name": "OSSEO INDEPENDENT SCHOOL DISTRICT 279"
+  },
+  {
+    "id": "mn_annadale_876",
+    "state": "Minnesota",
+    "name": "ANNANDALE INDEPENDENT SCHOOL DISTRICT 876"
+  },
+  {
+    "id": "mn_anokahennepin_11",
+    "state": "Minnesota",
+    "name": "ANOKA-HENNEPIN INDEPENDENT SCHOOL DISTRICT 11"
+  },
+  {
+    "id": "mn_bloomington_271",
+    "state": "Minnesota",
+    "name": "BLOOMINGTON INDEPENDENT SCHOOL DISTRICT 271"
+  },
+  {
+    "id": "mn_chisago_2144",
+    "state": "Minnesota",
+    "name": "CHISAGO LAKES SCHOOL DISTRICT ISD 2144"
+  },
+  {
+    "id": "mn_easterncarver_112",
+    "state": "Minnesota",
+    "name": "CHISAGO LAKES SCHOOL DISTRICT ISD 2144"
+  },
+  {
+    "id": "mn_becker_726",
+    "state": "Minnesota",
+    "name": "BECKER IND SCHOOL DISTRICT 726"
+  },
+  {
+    "id": "mn_belleplain_716",
+    "state": "Minnesota",
+    "name": "BELLE PLAINE IND SCH DIST 716"
+  },
+  {
+    "id": "mn_bemidji_31",
+    "state": "Minnesota",
+    "name": "BEMIDJI IND SCHOOL DISTRICT 31"
+  },
+  {
+    "id": "mn_biglake_727",
+    "state": "Minnesota",
+    "name": "BIG LAKE IND SCHOOL DIST 727"
+  },
+  {
+    "id": "mn_brainerd_181",
+    "state": "Minnesota",
+    "name": "BRAINERD IND SCHOOL DIST 181"
+  },
+  {
+    "id": "mn_brooklyncenter_266",
+    "state": "Minnesota",
+    "name": "BROOKLYN CENTER CMTY SD 286"
+  },
+  {
+    "id": "mn_byron_531",
+    "state": "Minnesota",
+    "name": "BYRON IND SCHOOL DISTRICT 531"
+  },
+  {
+    "id": "mn_caledonia_299",
+    "state": "Minnesota",
+    "name": "CALEDONIA IND SCHOOL DIST 299" 
+  },
+  {
+    "id": "mn_centennial_12",
+    "state": "Minnesota",
+    "name": "CENTENNIAL IND SCHOOL DIST 12"  
+  },
+  {
+    "id": "mn_central_108",
+    "state": "Minnesota",
+    "name": "CENTRAL SCHOOL DISTRICT 108"  
+  },
+  {
+    "id": "mn_columbiaheights_13",
+    "state": "Minnesota",
+    "name": "COLUMBIA HEIGHTS ISD 13"  
+  },
+  {
+    "id": "mn_delano_879",
+    "state": "Minnesota",
+    "name": "DELANO IND SCHOOL DISTRICT 879"  
+  },
+  {
+    "id": "mn_eastgrandforks_595",
+    "state": "Minnesota",
+    "name": "EAST GRAND FORKS IND SD 595"  
+  },
+  {
+    "id": "wi_milton",
+    "state": "Wisconsin",
+    "name": "MILTON SCHOOL DISTRICT"  
+  },
+  {
+    "id": "mn_edenprairie_272",
+    "state": "Minnesota",
+    "name": "EDEN PRAIRIE IND SCH DIST 272"  
+  },
+  {
+    "id": "mn_edina_273",
+    "state": "Minnesota",
+    "name": "EDINA PUBLIC SCHOOL DIST 273"  
+  },
+  {
+    "id": "mn_elkriver_728",
+    "state": "Minnesota",
+    "name": "ELK RIVER IND SCHOOL DIST 728"  
+  },
+  {
+    "id": "mn_rockridge_2909",
+    "state": "Minnesota",
+    "name": "ROCK RIDGE PUBLIC SCH ISD 2909"  
+  },
+  {
+    "id": "mn_fairmont_2752",
+    "state": "Minnesota",
+    "name": "FAIRMONT AREA SCHOOL DIST 2752"  
+  },
+  {
+    "id": "mn_fairbault_656",
+    "state": "Minnesota",
+    "name": "FARIBAULT IND SCHOOL DIST 656"  
+  },
+  {
+    "id": "mn_farmington_192",
+    "state": "Minnesota",
+    "name": "FARMINGTON IND SCHOOL DIST 192"  
+  },
+  {
+    "id": "mn_fergusfalls_544",
+    "state": "Minnesota",
+    "name": "FERGUS FALLS IND SCH DIST 544"  
+  },
+  {
+    "id": "mn_forestlake_831",
+    "state": "Minnesota",
+    "name": "FOREST LAKE IND SCH DIST 831"  
+  },
+  {
+    "id": "mn_fridley_14",
+    "state": "Minnesota",
+    "name": "FRIDLEY IND SCHOOL DISTRICT 14"  
+  },
+  {
+    "id": "mn_glencoesilverlake_2859",
+    "state": "Minnesota",
+    "name": "GLENCOE-SILVER LAKE ISD 2859"  
+  },
+  {
+    "id": "mn_hastings_200",
+    "state": "Minnesota",
+    "name": "HASTINGS IND SCHOOL DIST 200"  
+  },
+  {
+    "id": "mn_hawley_150",
+    "state": "Minnesota",
+    "name": "HAWLEY IND SCHOOL DISTRICT 150"  
+  },
+  {
+    "id": "mn_hawley_150",
+    "state": "Minnesota",
+    "name": "HERMANTOWN IND SCHOOL DIST 700"  
+  },
+  {
+    "id": "mn_hawley_150",
+    "state": "Minnesota",
+    "name": "HERMANTOWN IND SCHOOL DIST 700"  
+  },
+  {
+    "id": "mn_hopkins_270",
+    "state": "Minnesota",
+    "name": "HOPKINS IND SCHOOL DIST 270"  
+  }
+]

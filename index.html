@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Schedule & Steps</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <h1>Salary Schedule &amp; Steps</h1>
+
+        <div class="search-wrapper">
+            <input id="state-input" type="text" placeholder="Start typing a state name" autocomplete="off">
+            <div id="state-dropdown" class="dropdown"></div>
+        </div>
+
+        <div class="search-wrapper">
+            <div class="district-input-container">
+                <input id="district-input" type="text" placeholder="Enter your District" autocomplete="off">
+                <button id="go-btn" class="go-btn" disabled>Go</button>
+            </div>
+            <div id="district-dropdown" class="dropdown"></div>
+        </div>
+
+        <div class="feedback-section">
+            <p class="feedback-label">Have any suggestions or comments? Leave them below!</p>
+            <div class="comment-input-area">
+                <textarea id="feedback-input" placeholder="Your feedback..." rows="3"></textarea>
+                <button id="feedback-btn" class="feedback-btn">Submit</button>
+            </div>
+
+            <div id="comments-list" class="comments-list">
+                <div class="comment">
+                    <div class="comment-header">
+                        <span class="comment-author">Sarah M.</span>
+                        <span class="comment-time">2 hours ago</span>
+                    </div>
+                    <p class="comment-text">Would love to see more Wisconsin districts added!</p>
+                </div>
+                <div class="comment">
+                    <div class="comment-header">
+                        <span class="comment-author">Mike T.</span>
+                        <span class="comment-time">1 day ago</span>
+                    </div>
+                    <p class="comment-text">This is super helpful for comparing salaries. Thanks for building this!</p>
+                </div>
+                <div class="comment">
+                    <div class="comment-header">
+                        <span class="comment-author">Jennifer K.</span>
+                        <span class="comment-time">3 days ago</span>
+                    </div>
+                    <p class="comment-text">Could you add a feature to compare two districts side by side?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

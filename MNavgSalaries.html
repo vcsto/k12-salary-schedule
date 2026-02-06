@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MN Average Salaries</title>
+
+  <style>
+    th, td {
+      padding-left: 6px;
+      padding-right: 6px;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+
+<body>
+
+  <button onclick="window.location.href='index.html'">Back</button>
+
+  <center>
+    <table border="1" cellpadding="0" cellspacing="0">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>DistNumb</th>
+          <th>Col 2</th>
+          <th>Col 3</th>
+          <th>Col 4</th>
+          <th>Col 5</th>
+          <th>Col 6</th>
+          <th>Col 7</th>
+          <th>Col 8</th>
+          <th>Col 9</th>
+          <th>Col 10</th>
+          <th>Col 11</th>
+          <th>Col 12</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </center>
+
+  <script>
+    const tbody = document.getElementById("table-body");
+
+    const ROWS = 583;
+    const COLS = 13;
+
+    for (let i = 1; i <= ROWS; i++) {
+      const tr = document.createElement("tr");
+
+      for (let c = 0; c < COLS; c++) {
+        const td = document.createElement("td");
+        td.textContent = c === 0 ? i : "";
+        tr.appendChild(td);
+      }
+
+      tbody.appendChild(tr);
+    }
+  </script>
+
+</body>
+</html>

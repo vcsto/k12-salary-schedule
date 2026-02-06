@@ -1,0 +1,103 @@
+{
+    "districtId": "mn_delano_879",
+    "schedules": {
+      "2023-2024": {
+        "title": "Schedule A (District 879) 2023-2024",
+        "buttonText": "2023-2024",
+        "lanes": [
+            { "key": "BA", "label": "BA" },
+            { "key": "BA+15", "label": "BA+15" },
+            { "key": "BA+30", "label": "BA+30" },
+            { "key": "BA+45", "label": "BA+45" },
+            { "key": "BA+60/MA", "label": "BA+60/MA", "headerLines": ["BA+60/", "MA"] },
+            { "key": "MA+15", "label": "MA+15" },
+            { "key": "MA+30", "label": "MA+30" }
+        ],
+        "yearRanges": [
+          "Probationary 1",
+          "Probationary 2",
+          "Probationary 3",
+          "Career 1",
+          "Career 2",
+          "Career 3",
+          "Career 4",
+          "Career 5",
+          "Career 6",
+          "Career 7",
+          "Career 8",
+          "Career 9",
+          "Career 10",
+          "Career 11",
+          "Career 12"
+        ],
+        "rows": [
+          { "step": "Probationary 1", "years": "Probationary 1", "BA": 45376, "BA+15": 45841, "BA+30": 46304, "BA+45": 46770, "BA+60/MA": 47236, "MA+15": 47697, "MA+30": 48164 },
+          { "step": "Probationary 2", "years": "Probationary 2", "BA": 46654, "BA+15": 47317, "BA+30": 47978, "BA+45": 48639, "BA+60/MA": 49304, "MA+15": 49961, "MA+30": 50628 },
+          { "step": "Probationary 3", "years": "Probationary 3", "BA": 47931, "BA+15": 48792, "BA+30": 49646, "BA+45": 50507, "BA+60/MA": 51368, "MA+15": 52227, "MA+30": 53087 },
+  
+          { "step": "Career 1", "years": "Career 1", "BA": 49208, "BA+15": 50268, "BA+30": 51321, "BA+45": 52377, "BA+60/MA": 53431, "MA+15": 54491, "MA+30": 55547 },
+          { "step": "Career 2", "years": "Career 2", "BA": 51149, "BA+15": 52407, "BA+30": 53656, "BA+45": 54915, "BA+60/MA": 56169, "MA+15": 57420, "MA+30": 58675 },
+          { "step": "Career 3", "years": "Career 3", "BA": 52430, "BA+15": 53881, "BA+30": 55329, "BA+45": 56782, "BA+60/MA": 58232, "MA+15": 59683, "MA+30": 61138 },
+          { "step": "Career 4", "years": "Career 4", "BA": 53702, "BA+15": 55351, "BA+30": 57005, "BA+45": 58652, "BA+60/MA": 60299, "MA+15": 61947, "MA+30": 63600 },
+          { "step": "Career 5", "years": "Career 5", "BA": 54983, "BA+15": 56826, "BA+30": 58675, "BA+45": 60522, "BA+60/MA": 62365, "MA+15": 64215, "MA+30": 66059 },
+          { "step": "Career 6", "years": "Career 6", "BA": 56262, "BA+15": 58301, "BA+30": 60346, "BA+45": 62387, "BA+60/MA": 64432, "MA+15": 66477, "MA+30": 68520 },
+          { "step": "Career 7", "years": "Career 7", "BA": 57539, "BA+15": 59779, "BA+30": 62017, "BA+45": 64260, "BA+60/MA": 66500, "MA+15": 68744, "MA+30": 70980 },
+          { "step": "Career 8", "years": "Career 8", "BA": 58815, "BA+15": 61251, "BA+30": 63689, "BA+45": 66131, "BA+60/MA": 68567, "MA+15": 71005, "MA+30": 73441 },
+          { "step": "Career 9", "years": "Career 9", "BA": 60089, "BA+15": 62726, "BA+30": 65363, "BA+45": 67999, "BA+60/MA": 70630, "MA+15": 73267, "MA+30": 75908 },
+          { "step": "Career 10", "years": "Career 10", "BA": 60089, "BA+15": 64198, "BA+30": 67031, "BA+45": 69866, "BA+60/MA": 72699, "MA+15": 75533, "MA+30": 78365 },
+          { "step": "Career 11", "years": "Career 11", "BA": 60754, "BA+15": 67814, "BA+30": 70844, "BA+45": 73878, "BA+60/MA": 76909, "MA+15": 79935, "MA+30": 82965 },
+          { "step": "Career 12", "years": "Career 12", "BA": 61815, "BA+15": 70335, "BA+30": 73562, "BA+45": 76797, "BA+60/MA": 80019, "MA+15": 83252, "MA+30": 86461 }
+        ]
+      },
+  
+      "2024-2025": {
+        "title": "Schedule B (District 879) 2024-2025",
+        "buttonText": "2024-2025",
+        "lanes": [
+          { "key": "BA", "label": "BA" },
+          { "key": "BA+15", "label": "BA+15" },
+          { "key": "BA+30", "label": "BA+30" },
+          { "key": "BA+45", "label": "BA+45" },
+          { "key": "BA+60/MA", "label": "BA+60/MA", "headerLines": ["BA+60/", "MA"] },
+          { "key": "MA+15", "label": "MA+15" },
+          { "key": "MA+30", "label": "MA+30" }
+        ],
+        "yearRanges": [
+          "Probationary 1",
+          "Probationary 2",
+          "Probationary 3",
+          "Career 1",
+          "Career 2",
+          "Career 3",
+          "Career 4",
+          "Career 5",
+          "Career 6",
+          "Career 7",
+          "Career 8",
+          "Career 9",
+          "Career 10",
+          "Career 11",
+          "Career 12"
+        ],
+        "rows": [
+          { "step": "Probationary 1", "years": "Probationary 1", "BA": 47418, "BA+15": 47904, "BA+30": 48388, "BA+45": 48875, "BA+60/MA": 49362, "MA+15": 49844, "MA+30": 50331 },
+          { "step": "Probationary 2", "years": "Probationary 2", "BA": 48753, "BA+15": 49446, "BA+30": 50137, "BA+45": 50828, "BA+60/MA": 51522, "MA+15": 52209, "MA+30": 52906 },
+          { "step": "Probationary 3", "years": "Probationary 3", "BA": 50088, "BA+15": 50988, "BA+30": 51880, "BA+45": 52780, "BA+60/MA": 53680, "MA+15": 54577, "MA+30": 55476 },
+  
+          { "step": "Career 1", "years": "Career 1", "BA": 51423, "BA+15": 52530, "BA+30": 53630, "BA+45": 54734, "BA+60/MA": 55836, "MA+15": 56943, "MA+30": 58047 },
+          { "step": "Career 2", "years": "Career 2", "BA": 53450, "BA+15": 54765, "BA+30": 56071, "BA+45": 57386, "BA+60/MA": 58696, "MA+15": 60004, "MA+30": 61315 },
+          { "step": "Career 3", "years": "Career 3", "BA": 54789, "BA+15": 56305, "BA+30": 57818, "BA+45": 59337, "BA+60/MA": 60852, "MA+15": 62369, "MA+30": 63890 },
+          { "step": "Career 4", "years": "Career 4", "BA": 56119, "BA+15": 57842, "BA+30": 59570, "BA+45": 61291, "BA+60/MA": 63013, "MA+15": 64734, "MA+30": 66462 },
+          { "step": "Career 5", "years": "Career 5", "BA": 57457, "BA+15": 59383, "BA+30": 61315, "BA+45": 63245, "BA+60/MA": 65171, "MA+15": 67105, "MA+30": 69031 },
+          { "step": "Career 6", "years": "Career 6", "BA": 58794, "BA+15": 60925, "BA+30": 63061, "BA+45": 65194, "BA+60/MA": 67332, "MA+15": 69468, "MA+30": 71603 },
+          { "step": "Career 7", "years": "Career 7", "BA": 60128, "BA+15": 62469, "BA+30": 64808, "BA+45": 67152, "BA+60/MA": 69492, "MA+15": 71837, "MA+30": 74174 },
+          { "step": "Career 8", "years": "Career 8", "BA": 61461, "BA+15": 64007, "BA+30": 66555, "BA+45": 69107, "BA+60/MA": 71653, "MA+15": 74200, "MA+30": 76746 },
+          { "step": "Career 9", "years": "Career 9", "BA": 62793, "BA+15": 65549, "BA+30": 68304, "BA+45": 71059, "BA+60/MA": 73809, "MA+15": 76564, "MA+30": 79323 },
+          { "step": "Career 10", "years": "Career 10", "BA": 62793, "BA+15": 67087, "BA+30": 70047, "BA+45": 73010, "BA+60/MA": 75970, "MA+15": 78932, "MA+30": 81891 },
+          { "step": "Career 11", "years": "Career 11", "BA": 63488, "BA+15": 70866, "BA+30": 74031, "BA+45": 77203, "BA+60/MA": 80370, "MA+15": 83533, "MA+30": 86698 },
+          { "step": "Career 12", "years": "Career 12", "BA": 64596, "BA+15": 73500, "BA+30": 76872, "BA+45": 80253, "BA+60/MA": 83620, "MA+15": 86999, "MA+30": 90352 }
+        ]
+      }
+    }
+  }
+  

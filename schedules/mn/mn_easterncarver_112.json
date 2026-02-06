@@ -1,0 +1,64 @@
+{
+    "districtId": "mn_easterncarver_112",
+  
+    "schedules": {
+      "2023-2024_before": {
+        "title": "2023-2024 Salary Schedule",
+        "buttonText": "2023-2024",
+        "leftLabel": "Category",
+        "leftKey": "Category",
+  
+        "lanes": [
+          { "key": "Blank", "label": ""},
+          { "key": "BA", "label": "BA"},
+          { "key": "MA", "label": "MA"},
+          { "key": "MA+40(SEM)MA+60(QTR)SP/PHD", "label": "MA+40(SEM)MA+60(QTR)SP/PHD"}   
+        ],
+  
+        "yearRanges": ["1","2","3","4","5","6","7","8","9","10"],
+  
+        "rows": [
+          { "Category": "Emegering Teacher",  "Blank": 1,  "BA": 43737, "BA+10": 44897, "BA+20": 46091, "BA+30": 47316, "MA": 51084 },
+          { "Category": "Teacher 1",  "Blank": "3",  "BA": 44897, "BA+10": 46091, "BA+20": 47316, "BA+30": 48570, "MA": 52439 },
+          { "Category": "Teacher 2",  "Blank": "4",  "BA": 46091, "BA+10": 47316, "BA+20": 48570, "BA+30": 49859, "MA": 53833 },
+          { "Category": "Professional Teacher 1",  "Blank": "5",  "BA": 47316, "BA+10": 48570, "BA+20": 49859, "BA+30": 51182, "MA": 55263 },
+          { "Category": "Professional Teacher 2",  "Blank": "6",  "BA": 48570, "BA+10": 49859, "BA+20": 51182, "BA+30": 52543, "MA": 56728 },
+          { "Category": "Professional Teacher 3",  "Blank": "7",  "BA": 49859, "BA+10": 51182, "BA+20": 52543, "BA+30": 53938, "MA": 58232 },
+          { "Category": "Professional Teacher 4",  "Blank": "8",  "BA": 51182, "BA+10": 52543, "BA+20": 53938, "BA+30": 55371, "MA": 59778 },
+          { "Category": "Professional Teacher 5",  "Blank": "9",  "BA": 52543, "BA+10": 53938, "BA+20": 55371, "BA+30": 56838, "MA": 61365 },
+          { "Category": 9,  "Blank": "10", "BA": 53938, "BA+10": 55371, "BA+20": 56838, "BA+30": 58349, "MA": 62996 },
+          { "Category": 10, "Blank": "11", "BA": 55371, "BA+10": 56838, "BA+20": 58349, "BA+30": 59897, "MA": 64669 },
+          { "Category": 11, "Blank": "12", "BA": 56838, "BA+10": 58349, "BA+20": 59897, "BA+30": 61489, "MA": 66385 }
+        ]        
+      },
+      "2024-2024_before": {
+        "title": "2023-2024 Salary Schedule",
+        "buttonText": "2023-2024",
+        "leftLabel": "Category",
+        "leftKey": "Category",
+  
+        "lanes": [
+          { "key": "BA", "label": "BA"},
+          { "key": "MA", "label": "MA"},
+          { "key": "MA+40(SEM)MA+60(QTR)SP/PHD", "label": "MA+40(SEM)MA+60(QTR)SP/PHD"}
+        ],
+  
+        "yearRanges": ["1","2","3","4","5","6","7","8","9","10"],
+  
+        "rows": [
+          { "Category": 1,  "Blank": "2",  "BA": 46142, "BA+10": 47367, "BA+20": 48626, "BA+30": 49918, "MA": 53893 },
+          { "Category": 2,  "Blank": "3",  "BA": 47367, "BA+10": 48626, "BA+20": 49918, "BA+30": 51242, "MA": 55323 },
+          { "Category": 3,  "Blank": "4",  "BA": 48626, "BA+10": 49918, "BA+20": 51242, "BA+30": 52601, "MA": 56793 },
+          { "Category": 4,  "Blank": "5",  "BA": 49918, "BA+10": 51242, "BA+20": 52601, "BA+30": 53997, "MA": 58302 },
+          { "Category": 5,  "Blank": "6",  "BA": 51242, "BA+10": 52601, "BA+20": 53997, "BA+30": 55433, "MA": 59848 },
+          { "Category": 6,  "Blank": "7",  "BA": 52601, "BA+10": 53997, "BA+20": 55433, "BA+30": 56904, "MA": 61435 },
+          { "Category": 7,  "Blank": "8",  "BA": 53997, "BA+10": 55433, "BA+20": 56904, "BA+30": 58416, "MA": 63066 },
+          { "Category": 8,  "Blank": "9",  "BA": 55433, "BA+10": 56904, "BA+20": 58416, "BA+30": 59965, "MA": 64740 },
+          { "Category": 9,  "Blank": "10", "BA": 56904, "BA+10": 58416, "BA+20": 59965, "BA+30": 61558, "MA": 66461 },
+          { "Category": 10, "Blank": "11", "BA": 58416, "BA+10": 59965, "BA+20": 61558, "BA+30": 63192, "MA": 68226 },
+          { "Category": 11, "Blank": "12", "BA": 59965, "BA+10": 61558, "BA+20": 63192, "BA+30": 64871, "MA": 70036 }
+        ]        
+      }
+    }
+  }
+  

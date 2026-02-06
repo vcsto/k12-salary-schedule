@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salary Schedule</title>
+
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="stylesheet" href="secondPage.css">
+</head>
+
+<body>
+  <button id="back-btn">← Back</button>
+
+  <div class="title-container">
+    <div class="title-main">SOUTH WESTERN SCHOOL DISTRICT</div>
+    <div class="title-sub">YORK COUNTY</div>
+    <div class="title-small">Salary Schedule &amp; Steps</div>
+  </div>
+
+  <div class="top-toggle-row">
+    <input type="radio" id="toggle-a" name="top-toggle" checked>
+    <label for="toggle-a" class="toggle-pill">
+      Schedule A
+      <span class="info-icon" title="Info about Schedule A" aria-label="Info about Schedule A">i</span>
+    </label>
+
+    <input type="radio" id="toggle-b" name="top-toggle">
+    <label for="toggle-b" class="toggle-pill">
+      Schedule B
+      <span class="info-icon" title="Info about Schedule B" aria-label="Info about Schedule B">i</span>
+    </label>
+  </div>
+
+  <div id="schedule-info" class="schedule-info">
+    <div class="schedule-info-title">
+      District Salary Progression
+    </div>
+    <div class="schedule-info-text">
+      Salaries increase by step with additional years of experience<br>
+      and by lane based on degree level and earned credits.
+    </div>
+  </div>
+  <div id="schedule-info-b" class="schedule-info">
+    <div class="schedule-info-title">
+      District Salary Progression
+    </div>
+    <div class="schedule-info-text">
+      Schedule B provides an alternate salary schedule for this district
+      and may apply to a different group.
+    </div>
+  </div>
+  
+  
+
+  <div id="button-row"></div>
+
+  <div id="table-wrapper">
+    <table id="salary-table"></table>
+  </div>
+
+  <div id="calculator">
+    <h3>Salary Calculator</h3>
+
+    <div class="calc-row degree-row">
+      <span>What degree do you have?</span>
+
+      <div class="degree-options">
+        <input type="radio" id="degree-bachelors" name="degree" value="bachelors" />
+        <label for="degree-bachelors" class="degree-pill">Bachelors</label>
+
+        <input type="radio" id="degree-masters" name="degree" value="masters" />
+        <label for="degree-masters" class="degree-pill">Masters</label>
+
+        <input type="radio" id="degree-doctorate" name="degree" value="doctorate" />
+        <label for="degree-doctorate" class="degree-pill">Doctorate</label>
+
+        <!-- Norfolk-only options -->
+        <input type="radio" id="degree-maeds" name="degree" value="maeds" />
+        <label for="degree-maeds" class="degree-pill">MA+MA/EDS</label>
+
+        <input type="radio" id="degree-drsp" name="degree" value="drsp" />
+        <label for="degree-drsp" class="degree-pill">DR/SP</label>
+
+        <input type="radio" id="degree-phd" name="degree" value="phd" />
+        <label for="degree-phd" class="degree-pill">PHD</label>
+      </div>
+    </div>
+
+    <div class="calc-row">
+      <label for="calc-step">What year are you at?</label>
+      <input id="calc-step" type="text" inputmode="numeric" pattern="\d*">
+    </div>
+
+    <div class="calc-row">
+      <label for="calc-credits">How many credits do you have?</label>
+      <input id="calc-credits" type="text" inputmode="numeric" pattern="\d*">
+    </div>
+
+    <button id="calc-btn" disabled>Calculate</button>
+
+    <div id="calc-result"></div>
+
+    <div id="chart-container">
+      <canvas id="earnings-chart" width="720" height="550"></canvas>
+
+      <div class="chart-slider-row">
+        <label for="year-slider">
+          Show career earnings over
+          <span id="year-slider-value">5</span> years:
+        </label>
+        <input type="range" id="year-slider" min="1" max="30" value="5" />
+      </div>
+    </div>
+  </div>
+
+  <div class="page-bottom-spacer"></div>
+  <div class="scroll-spacer"></div>
+
+  <script type="module" src="secondPage.js"></script>
+</body>
+</html>
