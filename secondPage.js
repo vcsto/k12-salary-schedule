@@ -432,7 +432,14 @@ toggleB.addEventListener("change", updateScheduleInfo);
   function buildTable(tableElement, scheduleKey) {
     const schedule = SCHEDULES[scheduleKey];
     if (!schedule) return;
-  
+
+    // Handle wide tables with horizontal scrolling
+    if (schedule.wideTable) {
+      tableWrapper.classList.add("wide-table");
+    } else {
+      tableWrapper.classList.remove("wide-table");
+    }
+
     const rows = schedule.rows || [];
     const lanes =
       schedule.lanes && schedule.lanes.length ? schedule.lanes : DEFAULT_LANES;
@@ -466,6 +473,7 @@ toggleB.addEventListener("change", updateScheduleInfo);
       districtId === "mn_hawley_150" || 
       districtId === "mn_hopkins_270" ||
       districtId === "mn_rockridge_2909" ||
+      districtId === "mn_adaborup_2910" ||
       districtId === "mn_chisago_2144";
 
     

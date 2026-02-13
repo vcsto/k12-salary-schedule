@@ -89,6 +89,26 @@ body {
     overflow: hidden;
 }
 
+/* Wide table scroll container */
+#table-wrapper.wide-table {
+    width: 100%;
+    max-width: 900px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+}
+
+#table-wrapper.wide-table #salary-table {
+    table-layout: auto;
+    min-width: 1800px;
+}
+
+#table-wrapper.wide-table #salary-table col.col-salary {
+    width: auto;
+    min-width: 80px;
+    max-width: none;
+}
+
 
 
 #salary-table {

@@ -1,0 +1,157 @@
+{
+  "districtId": "ml_somerset",
+
+  "schedules": {
+    "10_month": {
+      "title": "Somerset County Public Schools",
+      "buttonText": "10 Month (189 Days)",
+
+      "lanes": [
+        { "key": "PD", "label": "PD" },
+        { "key": "SPC", "label": "SPC" },
+        { "key": "APC", "label": "APC" },
+        { "key": "Masters", "label": "Masters" },
+        { "key": "M30", "label": "M30" },
+        { "key": "Doc", "label": "Doc" }
+      ],
+
+      "yearRanges": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"],
+
+      "rows": [
+        { "step": 1,  "years": "1",  "PD": 52018, "SPC": 58378, "APC": 59790, "Masters": 60966, "M30": 62143, "Doc": 63319 },
+        { "step": 2,  "years": "2",  "PD": 52399, "SPC": 58731, "APC": 59790, "Masters": 61513, "M30": 62967, "Doc": 64144 },
+        { "step": 3,  "years": "3",  "PD": 52753, "SPC": 59084, "APC": 59790, "Masters": 62065, "M30": 63791, "Doc": 64966 },
+        { "step": 4,  "years": "4",  "PD": 53289, "SPC": 59203, "APC": 60311, "Masters": 62622, "M30": 64614, "Doc": 65554 },
+        { "step": 5,  "years": "5",  "PD": 54610, "SPC": 59777, "APC": 60832, "Masters": 64386, "M30": 65501, "Doc": 66489 },
+        { "step": 6,  "years": "6",  "PD": 56681, "SPC": 60799, "APC": 61938, "Masters": 64719, "M30": 65830, "Doc": 66821 },
+        { "step": 7,  "years": "7",  "PD": 58023, "SPC": 61401, "APC": 62529, "Masters": 65343, "M30": 66455, "Doc": 67447 },
+        { "step": 8,  "years": "8",  "PD": 60034, "SPC": 62529, "APC": 63733, "Masters": 66550, "M30": 67661, "Doc": 68651 },
+        { "step": 9,  "years": "9",  "PD": 62043, "SPC": 63690, "APC": 64805, "Masters": 67755, "M30": 68868, "Doc": 69857 },
+        { "step": 10, "years": "10", "PD": 64008, "SPC": 65692, "APC": 68201, "Masters": 70960, "M30": 72069, "Doc": 73060 },
+        { "step": 11, "years": "11", "PD": 64008, "SPC": 65692, "APC": 71094, "Masters": 73236, "M30": 74349, "Doc": 75335 },
+        { "step": 12, "years": "12", "PD": 64008, "SPC": 65692, "APC": 73025, "Masters": 75096, "M30": 76207, "Doc": 77210 },
+        { "step": 13, "years": "13", "PD": 64008, "SPC": 65692, "APC": 75789, "Masters": 77992, "M30": 79106, "Doc": 80095 },
+        { "step": 14, "years": "14", "PD": 64008, "SPC": 65692, "APC": 78959, "Masters": 80613, "M30": 81727, "Doc": 82716 },
+        { "step": 15, "years": "15", "PD": 64008, "SPC": 65692, "APC": 80015, "Masters": 81796, "M30": 82906, "Doc": 83895 },
+        { "step": 16, "years": "16", "PD": 64008, "SPC": 65692, "APC": 81068, "Masters": 82979, "M30": 84087, "Doc": 85073 },
+        { "step": 17, "years": "17", "PD": 64008, "SPC": 65692, "APC": 82124, "Masters": 84162, "M30": 85266, "Doc": 86252 },
+        { "step": 18, "years": "18", "PD": 64008, "SPC": 65692, "APC": 84553, "Masters": 86721, "M30": 87824, "Doc": 88807 },
+        { "step": 19, "years": "19", "PD": 64008, "SPC": 65692, "APC": 91577, "Masters": 93626, "M30": 94738, "Doc": 96181 }
+      ]
+    },
+
+    "10_5_month": {
+      "title": "Somerset County Public Schools",
+      "buttonText": "10.5 Month (199 Days)",
+
+      "lanes": [
+        { "key": "PD", "label": "PD" },
+        { "key": "SPC", "label": "SPC" },
+        { "key": "APC", "label": "APC" },
+        { "key": "Masters", "label": "Masters" },
+        { "key": "M30", "label": "M30" },
+        { "key": "Doc", "label": "Doc" }
+      ],
+
+      "yearRanges": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"],
+
+      "rows": [
+        { "step": 1,  "years": "1",  "PD": 54594, "SPC": 61265, "APC": 62753, "Masters": 63991, "M30": 65230, "Doc": 66471 },
+        { "step": 2,  "years": "2",  "PD": 54966, "SPC": 61637, "APC": 62753, "Masters": 64568, "M30": 66099, "Doc": 67338 },
+        { "step": 3,  "years": "3",  "PD": 55338, "SPC": 62008, "APC": 62753, "Masters": 65148, "M30": 66967, "Doc": 68205 },
+        { "step": 4,  "years": "4",  "PD": 55904, "SPC": 62134, "APC": 63300, "Masters": 65736, "M30": 67834, "Doc": 68825 },
+        { "step": 5,  "years": "5",  "PD": 57295, "SPC": 62739, "APC": 63850, "Masters": 67594, "M30": 68768, "Doc": 69809 },
+        { "step": 6,  "years": "6",  "PD": 59476, "SPC": 63815, "APC": 65014, "Masters": 67945, "M30": 69116, "Doc": 70159 },
+        { "step": 7,  "years": "7",  "PD": 60890, "SPC": 64450, "APC": 65637, "Masters": 68603, "M30": 69774, "Doc": 70819 },
+        { "step": 8,  "years": "8",  "PD": 63009, "SPC": 65637, "APC": 66906, "Masters": 69874, "M30": 71044, "Doc": 72087 },
+        { "step": 9,  "years": "9",  "PD": 65125, "SPC": 66860, "APC": 68035, "Masters": 71143, "M30": 72315, "Doc": 73358 },
+        { "step": 10, "years": "10", "PD": 67196, "SPC": 68969, "APC": 71612, "Masters": 74519, "M30": 75688, "Doc": 76731 },
+        { "step": 11, "years": "11", "PD": 67196, "SPC": 68969, "APC": 74661, "Masters": 76917, "M30": 78090, "Doc": 79129 },
+        { "step": 12, "years": "12", "PD": 67196, "SPC": 68969, "APC": 76695, "Masters": 78876, "M30": 80047, "Doc": 81091 },
+        { "step": 13, "years": "13", "PD": 67196, "SPC": 68969, "APC": 79607, "Masters": 81927, "M30": 83100, "Doc": 84144 },
+        { "step": 14, "years": "14", "PD": 67196, "SPC": 68969, "APC": 82947, "Masters": 84688, "M30": 85862, "Doc": 86905 },
+        { "step": 15, "years": "15", "PD": 67196, "SPC": 68969, "APC": 84059, "Masters": 85935, "M30": 87105, "Doc": 88146 },
+        { "step": 16, "years": "16", "PD": 67196, "SPC": 68969, "APC": 85168, "Masters": 87181, "M30": 88348, "Doc": 89386 },
+        { "step": 17, "years": "17", "PD": 67196, "SPC": 68969, "APC": 86280, "Masters": 88427, "M30": 89590, "Doc": 90630 },
+        { "step": 18, "years": "18", "PD": 67196, "SPC": 68969, "APC": 88839, "Masters": 91124, "M30": 92285, "Doc": 93320 },
+        { "step": 19, "years": "19", "PD": 67196, "SPC": 68969, "APC": 96239, "Masters": 98398, "M30": 99569, "Doc": 101088 }
+      ]
+    },
+
+    "11_month": {
+      "title": "Somerset County Public Schools",
+      "buttonText": "11 Month (209 Days)",
+
+      "lanes": [
+        { "key": "PD", "label": "PD" },
+        { "key": "SPC", "label": "SPC" },
+        { "key": "APC", "label": "APC" },
+        { "key": "Masters", "label": "Masters" },
+        { "key": "M30", "label": "M30" },
+        { "key": "Doc", "label": "Doc" }
+      ],
+
+      "yearRanges": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"],
+
+      "rows": [
+        { "step": 1,  "years": "1",  "PD": 57141, "SPC": 64152, "APC": 65714, "Masters": 67016, "M30": 68319, "Doc": 69621 },
+        { "step": 2,  "years": "2",  "PD": 57533, "SPC": 64451, "APC": 65714, "Masters": 67622, "M30": 69231, "Doc": 70533 },
+        { "step": 3,  "years": "3",  "PD": 57924, "SPC": 64933, "APC": 65714, "Masters": 68232, "M30": 70143, "Doc": 71443 },
+        { "step": 4,  "years": "4",  "PD": 58518, "SPC": 65064, "APC": 66291, "Masters": 68849, "M30": 71054, "Doc": 72095 },
+        { "step": 5,  "years": "5",  "PD": 59980, "SPC": 65700, "APC": 66867, "Masters": 70801, "M30": 72036, "Doc": 73129 },
+        { "step": 6,  "years": "6",  "PD": 62272, "SPC": 66831, "APC": 68092, "Masters": 71170, "M30": 72400, "Doc": 73497 },
+        { "step": 7,  "years": "7",  "PD": 63758, "SPC": 67498, "APC": 68745, "Masters": 71861, "M30": 73092, "Doc": 74190 },
+        { "step": 8,  "years": "8",  "PD": 65984, "SPC": 68745, "APC": 70079, "Masters": 73197, "M30": 74427, "Doc": 75523 },
+        { "step": 9,  "years": "9",  "PD": 68208, "SPC": 70031, "APC": 71265, "Masters": 74531, "M30": 75764, "Doc": 76857 },
+        { "step": 10, "years": "10", "PD": 70383, "SPC": 72247, "APC": 75024, "Masters": 78078, "M30": 79307, "Doc": 80404 },
+        { "step": 11, "years": "11", "PD": 70383, "SPC": 72247, "APC": 78227, "Masters": 80597, "M30": 81830, "Doc": 82922 },
+        { "step": 12, "years": "12", "PD": 70383, "SPC": 72247, "APC": 80365, "Masters": 82657, "M30": 83887, "Doc": 84985 },
+        { "step": 13, "years": "13", "PD": 70383, "SPC": 72247, "APC": 83424, "Masters": 85863, "M30": 87096, "Doc": 88192 },
+        { "step": 14, "years": "14", "PD": 70383, "SPC": 72247, "APC": 86933, "Masters": 88763, "M30": 89996, "Doc": 91092 },
+        { "step": 15, "years": "15", "PD": 70383, "SPC": 72247, "APC": 88102, "Masters": 90074, "M30": 91302, "Doc": 92397 },
+        { "step": 16, "years": "16", "PD": 70383, "SPC": 72247, "APC": 89268, "Masters": 91383, "M30": 92609, "Doc": 93701 },
+        { "step": 17, "years": "17", "PD": 70383, "SPC": 72247, "APC": 90436, "Masters": 92692, "M30": 93914, "Doc": 95007 },
+        { "step": 18, "years": "18", "PD": 70383, "SPC": 72247, "APC": 93125, "Masters": 95525, "M30": 96746, "Doc": 97834 },
+        { "step": 19, "years": "19", "PD": 70383, "SPC": 72247, "APC": 100900, "Masters": 103169, "M30": 104400, "Doc": 105997 }
+      ]
+    },
+
+    "12_month": {
+      "title": "Somerset County Public Schools",
+      "buttonText": "12 Month (260 Days)",
+
+      "lanes": [
+        { "key": "PD", "label": "PD" },
+        { "key": "SPC", "label": "SPC" },
+        { "key": "APC", "label": "APC" },
+        { "key": "Masters", "label": "Masters" },
+        { "key": "M30", "label": "M30" },
+        { "key": "Doc", "label": "Doc" }
+      ],
+
+      "yearRanges": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"],
+
+      "rows": [
+        { "step": 1,  "years": "1",  "PD": 70646, "SPC": 79450, "APC": 81414, "Masters": 83048, "M30": 84684, "Doc": 86320 },
+        { "step": 2,  "years": "2",  "PD": 71137, "SPC": 79940, "APC": 81414, "Masters": 83809, "M30": 85830, "Doc": 87465 },
+        { "step": 3,  "years": "3",  "PD": 71629, "SPC": 80432, "APC": 81414, "Masters": 84576, "M30": 86976, "Doc": 88609 },
+        { "step": 4,  "years": "4",  "PD": 72374, "SPC": 80596, "APC": 82137, "Masters": 85352, "M30": 88120, "Doc": 89428 },
+        { "step": 5,  "years": "5",  "PD": 74211, "SPC": 81395, "APC": 82861, "Masters": 87803, "M30": 89353, "Doc": 90727 },
+        { "step": 6,  "years": "6",  "PD": 77090, "SPC": 82816, "APC": 84399, "Masters": 88266, "M30": 89811, "Doc": 91188 },
+        { "step": 7,  "years": "7",  "PD": 78956, "SPC": 83835, "APC": 85220, "Masters": 89134, "M30": 90680, "Doc": 92059 },
+        { "step": 8,  "years": "8",  "PD": 81752, "SPC": 85220, "APC": 86896, "Masters": 90813, "M30": 92357, "Doc": 93733 },
+        { "step": 9,  "years": "9",  "PD": 84545, "SPC": 86835, "APC": 88386, "Masters": 92487, "M30": 94035, "Doc": 95410 },
+        { "step": 10, "years": "10", "PD": 87278, "SPC": 89619, "APC": 93107, "Masters": 96943, "M30": 98486, "Doc": 99863 },
+        { "step": 11, "years": "11", "PD": 87278, "SPC": 89619, "APC": 97130, "Masters": 100108, "M30": 101655, "Doc": 103027 },
+        { "step": 12, "years": "12", "PD": 87278, "SPC": 89619, "APC": 99815, "Masters": 102694, "M30": 104239, "Doc": 105617 },
+        { "step": 13, "years": "13", "PD": 87278, "SPC": 89619, "APC": 103657, "Masters": 106720, "M30": 108268, "Doc": 109645 },
+        { "step": 14, "years": "14", "PD": 87278, "SPC": 89619, "APC": 108065, "Masters": 110364, "M30": 111912, "Doc": 113289 },
+        { "step": 15, "years": "15", "PD": 87278, "SPC": 89619, "APC": 109533, "Masters": 112009, "M30": 113553, "Doc": 114928 },
+        { "step": 16, "years": "16", "PD": 87278, "SPC": 89619, "APC": 110997, "Masters": 113655, "M30": 115468, "Doc": 116566 },
+        { "step": 17, "years": "17", "PD": 87278, "SPC": 89619, "APC": 112465, "Masters": 115299, "M30": 116833, "Doc": 118206 },
+        { "step": 18, "years": "18", "PD": 87278, "SPC": 89619, "APC": 115842, "Masters": 118857, "M30": 120390, "Doc": 121757 },
+        { "step": 19, "years": "19", "PD": 87278, "SPC": 89619, "APC": 125609, "Masters": 128458, "M30": 130005, "Doc": 132009 }
+      ]
+    }
+  }
+}

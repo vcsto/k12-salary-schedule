@@ -1,0 +1,49 @@
+{
+  "districtId": "ml_wicomico",
+
+  "schedules": {
+    "2025-2026": {
+      "title": "WICOMICO COUNTY SALARY SCHEDULE FOR TEACHERS",
+      "buttonText": "2025-2026",
+
+      "lanes": [
+        { "key": "Standard", "label": "Standard Professional" },
+        { "key": "APCEquiv", "label": "APC w/Equivalent" },
+        { "key": "APCMasters", "label": "APC w/Master's" },
+        { "key": "APCMasters30", "label": "APC w/Master's +30" },
+        { "key": "APCMasters60", "label": "APC w/Master's +60" },
+        { "key": "APCDoctorate", "label": "APC w/Doctorate" }
+      ],
+
+      "yearRanges": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25"],
+
+      "rows": [
+        { "step": 1,  "years": "1",  "Standard": 57000, "APCEquiv": 57854, "APCMasters": 59549, "APCMasters30": 61509, "APCMasters60": 62133, "APCDoctorate": 63886 },
+        { "step": 2,  "years": "2",  "Standard": 57497, "APCEquiv": 58866, "APCMasters": 60586, "APCMasters30": 62503, "APCMasters60": 63127, "APCDoctorate": 64939 },
+        { "step": 3,  "years": "3",  "Standard": 58483, "APCEquiv": 60166, "APCMasters": 61858, "APCMasters30": 63820, "APCMasters60": 64444, "APCDoctorate": 66198 },
+        { "step": 4,  "years": "4",  "Standard": 59653, "APCEquiv": 61467, "APCMasters": 63176, "APCMasters30": 65332, "APCMasters60": 65956, "APCDoctorate": 67695 },
+        { "step": 5,  "years": "5",  "Standard": 60953, "APCEquiv": 62740, "APCMasters": 64452, "APCMasters30": 66825, "APCMasters60": 67449, "APCDoctorate": 69218 },
+        { "step": 6,  "years": "6",  "Standard": 62440, "APCEquiv": 64292, "APCMasters": 66037, "APCMasters30": 68616, "APCMasters60": 69240, "APCDoctorate": 70968 },
+        { "step": 7,  "years": "7",  "Standard": 64081, "APCEquiv": 66037, "APCMasters": 67945, "APCMasters30": 70299, "APCMasters60": 70923, "APCDoctorate": 72885 },
+        { "step": 8,  "years": "8",  "Standard": 65894, "APCEquiv": 68867, "APCMasters": 70862, "APCMasters30": 73462, "APCMasters60": 74086, "APCDoctorate": 75805 },
+        { "step": 9,  "years": "9",  "Standard": 67708, "APCEquiv": 71270, "APCMasters": 72964, "APCMasters30": 75583, "APCMasters60": 76207, "APCDoctorate": 78168 },
+        { "step": 10, "years": "10", "Standard": 69457, "APCEquiv": 73677, "APCMasters": 75411, "APCMasters30": 77988, "APCMasters60": 78612, "APCDoctorate": 80562 },
+        { "step": 11, "years": "11", "Standard": 71847, "APCEquiv": 75844, "APCMasters": 77999, "APCMasters30": 80562, "APCMasters60": 81186, "APCDoctorate": 83191 },
+        { "step": 12, "years": "12", "Standard": 74265, "APCEquiv": 80271, "APCMasters": 82571, "APCMasters30": 85252, "APCMasters60": 85876, "APCDoctorate": 87434 },
+        { "step": 13, "years": "13", "Standard": 76031, "APCEquiv": 82191, "APCMasters": 84532, "APCMasters30": 87278, "APCMasters60": 87902, "APCDoctorate": 89515 },
+        { "step": 14, "years": "14", "Standard": 76274, "APCEquiv": 82435, "APCMasters": 84776, "APCMasters30": 87521, "APCMasters60": 88145, "APCDoctorate": 89759 },
+        { "step": 15, "years": "15", "Standard": 76518, "APCEquiv": 82678, "APCMasters": 85020, "APCMasters30": 87766, "APCMasters60": 88390, "APCDoctorate": 90002 },
+        { "step": 16, "years": "16", "Standard": 76761, "APCEquiv": 82921, "APCMasters": 85263, "APCMasters30": 88009, "APCMasters60": 88633, "APCDoctorate": 90246 },
+        { "step": 17, "years": "17", "Standard": 78879, "APCEquiv": 85002, "APCMasters": 87657, "APCMasters30": 90391, "APCMasters60": 91015, "APCDoctorate": 92587 },
+        { "step": 18, "years": "18", "Standard": 79123, "APCEquiv": 85246, "APCMasters": 87900, "APCMasters30": 90635, "APCMasters60": 91259, "APCDoctorate": 92830 },
+        { "step": 19, "years": "19", "Standard": 79367, "APCEquiv": 85490, "APCMasters": 88144, "APCMasters30": 90878, "APCMasters60": 91502, "APCDoctorate": 93075 },
+        { "step": 20, "years": "20", "Standard": 79613, "APCEquiv": 85734, "APCMasters": 88388, "APCMasters30": 91123, "APCMasters60": 91747, "APCDoctorate": 93318 },
+        { "step": 21, "years": "21", "Standard": 82493, "APCEquiv": 89160, "APCMasters": 91828, "APCMasters30": 94574, "APCMasters60": 95198, "APCDoctorate": 96798 },
+        { "step": 22, "years": "22", "Standard": 82736, "APCEquiv": 89406, "APCMasters": 92072, "APCMasters30": 94819, "APCMasters60": 95443, "APCDoctorate": 97043 },
+        { "step": 23, "years": "23", "Standard": 82982, "APCEquiv": 89649, "APCMasters": 92316, "APCMasters30": 95061, "APCMasters60": 95685, "APCDoctorate": 97287 },
+        { "step": 24, "years": "24", "Standard": 85840, "APCEquiv": 92493, "APCMasters": 95372, "APCMasters30": 98184, "APCMasters60": 98808, "APCDoctorate": 100368 },
+        { "step": 25, "years": "25", "Standard": 86323, "APCEquiv": 92977, "APCMasters": 95856, "APCMasters30": 98667, "APCMasters60": 99291, "APCDoctorate": 100851 }
+      ]
+    }
+  }
+}

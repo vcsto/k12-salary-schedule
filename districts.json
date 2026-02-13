@@ -203,5 +203,15 @@
     "id": "mn_hopkins_270",
     "state": "Minnesota",
     "name": "HOPKINS IND SCHOOL DIST 270"  
+  },
+  {
+    "id": "ml_somerset",
+    "state": "Maryland",
+    "name": "SOMERSET COUNTY PUBLIC SCHOOLS"
+  },
+  {
+    "id": "ml_worcester",
+    "state": "Maryland",
+    "name": "WORCESTER COUNTY PUBLIC SCHOOLS"
   }
 ]

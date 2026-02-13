@@ -1,0 +1,120 @@
+{
+  "districtId": "ml_worcester",
+
+  "schedules": {
+    "level_1": {
+      "title": "Worcester County Public Schools",
+      "buttonText": "Level 1",
+
+      "lanes": [
+        { "key": "Provisional", "label": "Provisional" },
+        { "key": "ProfLicense", "label": "Professional License" }
+      ],
+
+      "yearRanges": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"],
+
+      "rows": [
+        { "step": 1,  "years": "1",  "Provisional": 54820, "ProfLicense": 55789 },
+        { "step": 2,  "years": "2",  "Provisional": 54820, "ProfLicense": 55789 },
+        { "step": 3,  "years": "3",  "Provisional": 54820, "ProfLicense": 55789 },
+        { "step": 4,  "years": "4",  "Provisional": 55631, "ProfLicense": 56324 },
+        { "step": 5,  "years": "5",  "Provisional": 56740, "ProfLicense": 57374 },
+        { "step": 6,  "years": "6",  "Provisional": 57952, "ProfLicense": 58538 },
+        { "step": 7,  "years": "7",  "Provisional": 59245, "ProfLicense": 59774 },
+        { "step": 8,  "years": "8",  "Provisional": 60628, "ProfLicense": 61182 },
+        { "step": 9,  "years": "9",  "Provisional": 61483, "ProfLicense": 62036 },
+        { "step": 10, "years": "10", "Provisional": 62918, "ProfLicense": 63497 },
+        { "step": 11, "years": "11", "Provisional": 62918, "ProfLicense": 63497 },
+        { "step": 12, "years": "12", "Provisional": 62918, "ProfLicense": 63497 },
+        { "step": 13, "years": "13", "Provisional": 62918, "ProfLicense": 63497 },
+        { "step": 14, "years": "14", "Provisional": 62918, "ProfLicense": 63497 },
+        { "step": 15, "years": "15", "Provisional": 62918, "ProfLicense": 63497 },
+        { "step": 16, "years": "16", "Provisional": 62918, "ProfLicense": 63497 }
+      ]
+    },
+
+    "level_2": {
+      "title": "Worcester County Public Schools",
+      "buttonText": "Level 2",
+
+      "lanes": [
+        { "key": "APL", "label": "APL w/o MA, Pursuing NBC or MA" },
+        { "key": "PLMasters", "label": "PL or APL with Masters" },
+        { "key": "Masters30", "label": "APL with Master's +30" },
+        { "key": "Masters60", "label": "APL with Master's +60" },
+        { "key": "Doctorate", "label": "APL with Doctorate" }
+      ],
+
+      "yearRanges": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"],
+
+      "rows": [
+        { "step": 1,  "years": "1",  "APL": 57647, "PLMasters": 60661, "Masters30": 63685, "Masters60": 65193, "Doctorate": 66700 },
+        { "step": 2,  "years": "2",  "APL": 57647, "PLMasters": 60661, "Masters30": 63685, "Masters60": 65193, "Doctorate": 66700 },
+        { "step": 3,  "years": "3",  "APL": 57647, "PLMasters": 60661, "Masters30": 63685, "Masters60": 65193, "Doctorate": 66700 },
+        { "step": 4,  "years": "4",  "APL": 58531, "PLMasters": 61314, "Masters30": 64089, "Masters60": 65482, "Doctorate": 66875 },
+        { "step": 5,  "years": "5",  "APL": 59475, "PLMasters": 62260, "Masters30": 65041, "Masters60": 66431, "Doctorate": 67821 },
+        { "step": 6,  "years": "6",  "APL": 60428, "PLMasters": 63204, "Masters30": 65988, "Masters60": 67380, "Doctorate": 68772 },
+        { "step": 7,  "years": "7",  "APL": 61688, "PLMasters": 64473, "Masters30": 67251, "Masters60": 68640, "Doctorate": 70029 },
+        { "step": 8,  "years": "8",  "APL": 63131, "PLMasters": 65912, "Masters30": 68399, "Masters60": 70088, "Doctorate": 71477 },
+        { "step": 9,  "years": "9",  "APL": 64239, "PLMasters": 66993, "Masters30": 69743, "Masters60": 71121, "Doctorate": 72498 },
+        { "step": 10, "years": "10", "APL": 66089, "PLMasters": 68837, "Masters30": 71595, "Masters60": 72972, "Doctorate": 74349 },
+        { "step": 11, "years": "11", "APL": 67419, "PLMasters": 70176, "Masters30": 72933, "Masters60": 74309, "Doctorate": 75685 },
+        { "step": 12, "years": "12", "APL": 69703, "PLMasters": 72782, "Masters30": 75211, "Masters60": 76591, "Doctorate": 77970 },
+        { "step": 13, "years": "13", "APL": 72923, "PLMasters": 75673, "Masters30": 78426, "Masters60": 79802, "Doctorate": 81178 },
+        { "step": 14, "years": "14", "APL": 76082, "PLMasters": 78903, "Masters30": 81728, "Masters60": 83138, "Doctorate": 84547 },
+        { "step": 15, "years": "15", "APL": 76930, "PLMasters": 82848, "Masters30": 85759, "Masters60": 87222, "Doctorate": 88685 },
+        { "step": 16, "years": "16", "APL": 89093, "PLMasters": 92361, "Masters30": 95629, "Masters60": 97266, "Doctorate": 98902 }
+      ]
+    },
+
+    "level_3": {
+      "title": "Worcester County Public Schools",
+      "buttonText": "Level 3 (NBC)",
+      "wideTable": true,
+
+      "lanes": [
+        { "key": "NBC_APL", "label": "APL NBC" },
+        { "key": "NBC_Masters", "label": "Masters NBC" },
+        { "key": "NBC_M30", "label": "M+30 NBC" },
+        { "key": "NBC_M60", "label": "M+60 NBC" },
+        { "key": "NBC_Doc", "label": "Doc NBC" },
+        { "key": "M1_APL", "label": "APL 1st Maint" },
+        { "key": "M1_Masters", "label": "Masters 1st Maint" },
+        { "key": "M1_M30", "label": "M+30 1st Maint" },
+        { "key": "M1_M60", "label": "M+60 1st Maint" },
+        { "key": "M1_Doc", "label": "Doc 1st Maint" },
+        { "key": "M2_APL", "label": "APL 2nd Maint" },
+        { "key": "M2_Masters", "label": "Masters 2nd Maint" },
+        { "key": "M2_M30", "label": "M+30 2nd Maint" },
+        { "key": "M2_M60", "label": "M+60 2nd Maint" },
+        { "key": "M2_Doc", "label": "Doc 2nd Maint" },
+        { "key": "M3_APL", "label": "APL 3rd Maint" },
+        { "key": "M3_Masters", "label": "Masters 3rd Maint" },
+        { "key": "M3_M30", "label": "M+30 3rd Maint" },
+        { "key": "M3_M60", "label": "M+60 3rd Maint" },
+        { "key": "M3_Doc", "label": "Doc 3rd Maint" }
+      ],
+
+      "yearRanges": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"],
+
+      "rows": [
+        { "step": 1,  "years": "1",  "NBC_APL": 67647, "NBC_Masters": 70661, "NBC_M30": 73685, "NBC_M60": 75193, "NBC_Doc": 76700, "M1_APL": null, "M1_Masters": null, "M1_M30": null, "M1_M60": null, "M1_Doc": null, "M2_APL": null, "M2_Masters": null, "M2_M30": null, "M2_M60": null, "M2_Doc": null, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 2,  "years": "2",  "NBC_APL": 67647, "NBC_Masters": 70661, "NBC_M30": 73685, "NBC_M60": 75193, "NBC_Doc": 76700, "M1_APL": null, "M1_Masters": null, "M1_M30": null, "M1_M60": null, "M1_Doc": null, "M2_APL": null, "M2_Masters": null, "M2_M30": null, "M2_M60": null, "M2_Doc": null, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 3,  "years": "3",  "NBC_APL": 67647, "NBC_Masters": 70661, "NBC_M30": 73685, "NBC_M60": 75193, "NBC_Doc": 76700, "M1_APL": null, "M1_Masters": null, "M1_M30": null, "M1_M60": null, "M1_Doc": null, "M2_APL": null, "M2_Masters": null, "M2_M30": null, "M2_M60": null, "M2_Doc": null, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 4,  "years": "4",  "NBC_APL": 68531, "NBC_Masters": 71314, "NBC_M30": 74089, "NBC_M60": 75482, "NBC_Doc": 76875, "M1_APL": null, "M1_Masters": null, "M1_M30": null, "M1_M60": null, "M1_Doc": null, "M2_APL": null, "M2_Masters": null, "M2_M30": null, "M2_M60": null, "M2_Doc": null, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 5,  "years": "5",  "NBC_APL": 69475, "NBC_Masters": 72260, "NBC_M30": 75041, "NBC_M60": 76431, "NBC_Doc": 77821, "M1_APL": null, "M1_Masters": null, "M1_M30": null, "M1_M60": null, "M1_Doc": null, "M2_APL": null, "M2_Masters": null, "M2_M30": null, "M2_M60": null, "M2_Doc": null, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 6,  "years": "6",  "NBC_APL": 70428, "NBC_Masters": 73204, "NBC_M30": 75988, "NBC_M60": 77380, "NBC_Doc": 78772, "M1_APL": 78428, "M1_Masters": 81204, "M1_M30": 83988, "M1_M60": 85380, "M1_Doc": 86772, "M2_APL": null, "M2_Masters": null, "M2_M30": null, "M2_M60": null, "M2_Doc": null, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 7,  "years": "7",  "NBC_APL": 71688, "NBC_Masters": 74473, "NBC_M30": 77251, "NBC_M60": 78640, "NBC_Doc": 80029, "M1_APL": 79688, "M1_Masters": 82473, "M1_M30": 85251, "M1_M60": 86640, "M1_Doc": 88029, "M2_APL": null, "M2_Masters": null, "M2_M30": null, "M2_M60": null, "M2_Doc": null, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 8,  "years": "8",  "NBC_APL": 73131, "NBC_Masters": 75912, "NBC_M30": 78399, "NBC_M60": 80088, "NBC_Doc": 81477, "M1_APL": 81131, "M1_Masters": 83912, "M1_M30": 86399, "M1_M60": 88088, "M1_Doc": 89477, "M2_APL": null, "M2_Masters": null, "M2_M30": null, "M2_M60": null, "M2_Doc": null, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 9,  "years": "9",  "NBC_APL": 74239, "NBC_Masters": 76993, "NBC_M30": 79743, "NBC_M60": 81121, "NBC_Doc": 82498, "M1_APL": 82239, "M1_Masters": 84993, "M1_M30": 87743, "M1_M60": 89121, "M1_Doc": 90498, "M2_APL": null, "M2_Masters": null, "M2_M30": null, "M2_M60": null, "M2_Doc": null, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 10, "years": "10", "NBC_APL": 76089, "NBC_Masters": 78837, "NBC_M30": 81595, "NBC_M60": 82972, "NBC_Doc": 84349, "M1_APL": 84089, "M1_Masters": 86837, "M1_M30": 89595, "M1_M60": 90972, "M1_Doc": 92349, "M2_APL": null, "M2_Masters": null, "M2_M30": null, "M2_M60": null, "M2_Doc": null, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 11, "years": "11", "NBC_APL": 77419, "NBC_Masters": 80176, "NBC_M30": 82933, "NBC_M60": 84309, "NBC_Doc": 85685, "M1_APL": 85419, "M1_Masters": 88176, "M1_M30": 90933, "M1_M60": 92309, "M1_Doc": 93685, "M2_APL": 92419, "M2_Masters": 95176, "M2_M30": 97933, "M2_M60": 99309, "M2_Doc": 100685, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 12, "years": "12", "NBC_APL": 79703, "NBC_Masters": 82782, "NBC_M30": 85211, "NBC_M60": 86591, "NBC_Doc": 87970, "M1_APL": 87703, "M1_Masters": 90782, "M1_M30": 93211, "M1_M60": 94591, "M1_Doc": 95970, "M2_APL": 94703, "M2_Masters": 97782, "M2_M30": 100211, "M2_M60": 101591, "M2_Doc": 102970, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 13, "years": "13", "NBC_APL": 82923, "NBC_Masters": 85673, "NBC_M30": 88426, "NBC_M60": 89802, "NBC_Doc": 91178, "M1_APL": 90923, "M1_Masters": 93673, "M1_M30": 96426, "M1_M60": 97802, "M1_Doc": 99178, "M2_APL": 97923, "M2_Masters": 100673, "M2_M30": 103426, "M2_M60": 104802, "M2_Doc": 106178, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 14, "years": "14", "NBC_APL": 86082, "NBC_Masters": 88903, "NBC_M30": 91728, "NBC_M60": 93138, "NBC_Doc": 94547, "M1_APL": 94082, "M1_Masters": 96903, "M1_M30": 99728, "M1_M60": 101138, "M1_Doc": 102547, "M2_APL": 101082, "M2_Masters": 103903, "M2_M30": 106728, "M2_M60": 108138, "M2_Doc": 109547, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 15, "years": "15", "NBC_APL": 86930, "NBC_Masters": 92848, "NBC_M30": 95759, "NBC_M60": 97222, "NBC_Doc": 98685, "M1_APL": 94930, "M1_Masters": 100848, "M1_M30": 103759, "M1_M60": 105222, "M1_Doc": 106685, "M2_APL": 101930, "M2_Masters": 107848, "M2_M30": 110759, "M2_M60": 112222, "M2_Doc": 113685, "M3_APL": null, "M3_Masters": null, "M3_M30": null, "M3_M60": null, "M3_Doc": null },
+        { "step": 16, "years": "16", "NBC_APL": 99093, "NBC_Masters": 102361, "NBC_M30": 105629, "NBC_M60": 107266, "NBC_Doc": 108902, "M1_APL": 107093, "M1_Masters": 110361, "M1_M30": 113629, "M1_M60": 115266, "M1_Doc": 116902, "M2_APL": 114093, "M2_Masters": 117361, "M2_M30": 120629, "M2_M60": 122266, "M2_Doc": 123902, "M3_APL": 120093, "M3_Masters": 123361, "M3_M30": 126629, "M3_M60": 128266, "M3_Doc": 129902 }
+      ]
+    }
+  }
+}
