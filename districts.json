@@ -213,5 +213,10 @@
     "id": "ml_worcester",
     "state": "Maryland",
     "name": "WORCESTER COUNTY PUBLIC SCHOOLS"
+  },
+  {
+    "id": "ml_wicomico",
+    "state": "Maryland",
+    "name": "WICOMICO COUNTY PUBLIC SCHOOLS"
   }
 ]
